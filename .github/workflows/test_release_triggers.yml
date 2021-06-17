@@ -1,6 +1,6 @@
 on:
   release:
-    types: [created]
+    types: [published]
 
 name: Do something on release creation
 
