@@ -5,4 +5,4 @@ With the trigger `created` ([see here](https://github.com/Rohja/github-actions-r
  - The Action *IS* triggered when the release if directly published without a draft.
 
 With the trigger `published` ([see here](https://github.com/Rohja/github-actions-release-triggers-test/commit/3edaf7b799761e8d1961431e18804ee4aa000a93)):
- - The Action is triggered when a release is published from a draft.
+ - The Action is triggered any time a release is published, independently of the use of a Draft first or not.
