@@ -1,0 +1,17 @@
+on:
+  release:
+    types: [created]
+
+name: Do something on release creation
+
+jobs:
+  build:
+    name: Build something
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+      
+    - name: Do Something
+      run: echo "Hello World"
